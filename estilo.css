@@ -5,6 +5,21 @@
     width: 80%;
 }
 
+.btn-back{
+    left: 500px;
+    top: 300px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    background-color:rgba(238, 10, 10, 0.966);
+    color: yellow;
+    border: 3px solid orangered;
+    border-radius: 20px;
+    position: sticky;
+    opacity: .4;
+}
+
+
 .hello-111{
     color: red;
     height: 10%;
@@ -51,8 +66,8 @@ h3{
 }
 
 #ceparar{
-    display: block;
-    padding: 5px 20px;
+    display:inline-block;
+    padding: 0px 20px;
 }
 .boton-1{
     padding: 10PX;

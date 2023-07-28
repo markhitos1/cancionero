@@ -1,39 +1,11 @@
 
-
-function botones( ide , clas ) {
-   var c = document.getElementById("ceparar");
-   var clon = c.cloneNode("ceparar");
-   document.body.appendChild(clon);
-
-  
-   const div1 = document.querySelector('.hola-1');
-
-   remover = div1.setAttribute('class', `${clas}`);
-
-   const ides = document.getElementById("hola-1");
-
-   cambiar =  ides.setAttribute("id",`${ide}`);
-
-   
-}
+/*BUTTON THE BACK*/
 
 
 
-function titulo (titulo){
+/*FUNCIONAMIENTO DEL BUTTON*/
 
-   const contenedor = document.querySelector('.hola-1 #hola-1.modal-body');
-   
-   const item = document.createElement("h1");
-
-   const text = document.createTextNode(`${titulo}`);
-
-   item.appendChild(text);
-   contenedor.appendChild(item);
-}
-
-
-
-function texto(nota,numero,titulo1,titulo2,letra1,letra2,letra3,letra4,letra5,letra6,letra7,letra8,letra9,letra10,letra11,letra12,letra13,letra14){
+function texto(nota,numero,titulo1,titulo2,letra1,letra2,letra3,letra4,letra5,letra6,letra7,letra8,letra9,letra10,letra11,letra12,letra13,letra14,letra15,letra16,letra17){
 
    const contenedor = document.querySelector('#ceparar-1');
   
@@ -104,6 +76,31 @@ function texto(nota,numero,titulo1,titulo2,letra1,letra2,letra3,letra4,letra5,le
    const i12 = document.createElement("h2");
    const i13 = document.createElement("h2");
    const i14 = document.createElement("h2");
+   const i15 = document.createElement("h2");
+   const i16 = document.createElement("h2");
+   const i17 = document.createElement("h2");
+
+
+    i1.setAttribute("class","a1");
+    i2.setAttribute("class","a2");
+    i3.setAttribute("class","a3");
+    i4.setAttribute("class","a4");
+    i5.setAttribute("class","a5");
+    i6.setAttribute("class","a6");
+    i7.setAttribute("class","a7");
+    i8.setAttribute("class","a8");
+    i9.setAttribute("class","a9");
+    i10.setAttribute("class","a10");
+    i11.setAttribute("class","a11");
+    i12.setAttribute("class","a12");
+    i13.setAttribute("class","a13");
+    i14.setAttribute("class","a14");
+    i15.setAttribute("class","a15");
+    i16.setAttribute("class","a16");
+    i17.setAttribute("class","a17");
+   
+   
+
 
    const text = document.createTextNode(`${titulo1}`);
    const text2 = document.createTextNode(`${titulo2}`);
@@ -121,6 +118,9 @@ function texto(nota,numero,titulo1,titulo2,letra1,letra2,letra3,letra4,letra5,le
    const h12 = document.createTextNode(`${letra12}`);
    const h13 = document.createTextNode(`${letra13}`);
    const h14 = document.createTextNode(`${letra14}`);
+   const h15 = document.createTextNode(`${letra15}`);
+   const h16 = document.createTextNode(`${letra16}`);
+   const h17 = document.createTextNode(`${letra17}`);
    
    item2.appendChild(text);
    item7.appendChild(text2);
@@ -139,22 +139,27 @@ function texto(nota,numero,titulo1,titulo2,letra1,letra2,letra3,letra4,letra5,le
    item9.appendChild(i12);
    item9.appendChild(i13);
    item9.appendChild(i14);
+   item9.appendChild(i15);
+   item9.appendChild(i16);
+   item9.appendChild(i17);
 
-   i1.appendChild(h)
-   i2.appendChild(h2)
-   i3.appendChild(h3)
-   i4.appendChild(h4)
-   i5.appendChild(h5)
-   i6.appendChild(h6)
-   i7.appendChild(h7)
-   i8.appendChild(h8)
-   i9.appendChild(h9)
-   i10.appendChild(h10)
-   i11.appendChild(h11)
-   i12.appendChild(h12)
-   i13.appendChild(h13)
-   i14.appendChild(h14)
-
+   i1.appendChild(h);
+   i2.appendChild(h2);
+   i3.appendChild(h3);
+   i4.appendChild(h4);
+   i5.appendChild(h5);
+   i6.appendChild(h6);
+   i7.appendChild(h7);
+   i8.appendChild(h8);
+   i9.appendChild(h9);
+   i10.appendChild(h10);
+   i11.appendChild(h11);
+   i12.appendChild(h12);
+   i13.appendChild(h13);
+   i14.appendChild(h14);
+   i15.appendChild(h15);
+   i16.appendChild(h16);
+   i17.appendChild(h17);
 
    
 }
@@ -163,44 +168,214 @@ function texto(nota,numero,titulo1,titulo2,letra1,letra2,letra3,letra4,letra5,le
 
 
 
-texto("mayor","1","NO HAY DIOS TAN GRANDE COMO TU","𝙉𝙊 𝙃𝘼𝙔 𝘿𝙄𝙊𝙎 𝙏𝘼𝙉 𝙂𝙍𝘼𝙉𝘿𝙀 𝘾𝙊𝙈𝙊 𝙏𝙐",
-`//NO HAY DIOS TAN GRANDE COMO TU `,`NO LO HAY , NO LO HAY//`,"//NO HAY DIOS QUE PUEDA HACER LAS OBRAS ","","COMO LAS QUE HACES TU//","","","","");
+texto("mayor","1","NO HAY DIOS TAN GRANDE COMO TU","𝙉𝙊 𝙃𝘼𝙔 𝘿𝙄𝙊𝙎 𝙏𝘼𝙉 𝙂𝙍𝘼𝙉𝘿𝙀 𝘾𝙊𝙈𝙊 𝙏𝙐",`//NO HAY DIOS TAN GRANDE COMO TU `,`NO LO HAY , NO LO HAY//`,"//NO HAY DIOS QUE PUEDA HACER LAS OBRAS ","COMO LAS QUE HACES TU//","//NO ES CON EJERCITO","NI CON ESPADA","ES CON SU SANTO ESPIRITU//","Y ESOS MONTES SE MOVERAN","Y ESOS MONTES SE MOVERAN","CON SU SANTO ESPIRITU");
 
-texto("mayor","2","ESTE ES EL CRISTO", "𝙀𝙎𝙏𝙀 𝙀𝙎 𝙀𝙇 𝘾𝙍𝙄𝙎𝙏𝙊",`ESTE ES EL CRISTO `,"QUE YO PREDICO","Y NO ME CANSO DE PREDICAR","SANA A LOS ENFERMOS","AUYENTA A LOS DEMONIOS","CALMA LOS VIENTOS ","Y TAMBIEN LA TEMPESTAD"," /// Y YO LE ALABARE /// ","DICIENDO GLORIA A DIOS" );
+$(document).ready(function(){
+   $(" #mayor-1 .a1 ").before("<h3>DO</h3>");
+   $(" #mayor-1 .a2 ").before("<h3>SOL</h3><h3>DO - DO7</h3>");
+   $(" #mayor-1 .a3 ").before("<h3>FA</h3><h3> </h3><h3>DO</h3>");
+   $(" #mayor-1 .a4 ").before("<h3>SOL</h3><h3>DO</h3>");
+   $(" #mayor-1 .a5 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-1 .a6 ").before("<h3>do</h3><h3>re</h3>");
+});
+
+texto("mayor","2","ESTE ES EL CRISTO", "𝙀𝙎𝙏𝙀 𝙀𝙎 𝙀𝙇 𝘾𝙍𝙄𝙎𝙏𝙊",`ESTE ES EL CRISTO `,"QUE YO PREDICO","Y NO ME CANSO DE PREDICAR","SANA A LOS ENFERMOS","AUYENTA A LOS DEMONIOS","CALMA LOS VIENTOS ","Y TAMBIEN LA TEMPESTAD"," Y YO LE ALABARE "," Y YO LE ALABARE ","DICIENDO GLORIA A DIOS","","","","" ,"","","","" );
+
+$(document).ready(function(){
+   $(" #mayor-2 .a1 ").before("<h3>DO</h3><h3></h3>");
+   $(" #mayor-2 .a2 ").before("<h3>DO</h3><h3></h3>");
+   $(" #mayor-2 .a3 ").before("<h3>DO</h3><h3>SOL</h3>");
+   $(" #mayor-2 .a4 ").before("<h3>SOL</h3><h3></h3>");
+   $(" #mayor-2 .a5 ").before("<h3>SOL</h3><h3></h3>");
+   $(" #mayor-2 .a6 ").before("<h3>SOL</h3><h3></h3>");
+   $(" #mayor-2 .a7 ").before("<h3>SOL</h3><h3>FA-DO</h3>");
+   $(" #mayor-2 .a8 ").before("<h3>DO7</h3><h3>FA</h3>");
+   $(" #mayor-2 .a9 ").before("<h3>FA</h3><h3>DO</h3>");
+   $(" #mayor-2 .a10 ").before("<h3>DO</h3><h3>SOL</h3>");
+});
+
 
 texto("mayor","3","VIVA LA FE ","𝙑𝙄𝙑𝘼 𝙇𝘼 𝙁𝙀",`///VIVA LA FE VIVA LA ESPERANZA`,"VIVA EL AMOR///","QUE VIVA CRISTO","QUE VIVA CRISTO ","QUE VIVA CRISTO EL","----------------","QUE VIVA CRISTO ","//QUE VIVA QUE VIVA CRISTO //","QUE VIVA EL ","");
+
+$(document).ready(function(){
+   $(" #mayor-3 .a1 ").before("<h3>DO</h3><h3></h3>");
+   $(" #mayor-3 .a2 ").before("<h3>DO</h3><h3>DO</h3>");
+   $(" #mayor-3 .a3 ").before("<h3>DO</h3><h3>SOL</h3>");
+   $(" #mayor-3 .a4 ").before("<h3>SOL</h3><h3>DO</h3>");
+   $(" #mayor-3 .a5 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-3 .a6 ").before("<h3>do</h3><h3>re</h3>");
+});
+
+
 texto("mayor","4","UNA MIRADA DE FE", "𝙐𝙉𝘼 𝙈𝙄𝙍𝘼𝘿𝘼 𝘿𝙀 𝙁𝙀","//UNA MIRADA DE FE ","UNA MIRADA DE AMOR ","ES LA QUE PUEDE ","SALVAR AL PECADOR//","Y SI TU VIERES A CRISTO JESUS","EL TE PERDONARA","PORQUE UN A MIRADA DE AMOR","ES LA QUE PUEDE ","SALVAR AL PECADOR");
+
+$(document).ready(function(){
+   $(" #mayor-4 .a1 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-4 .a2 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-4 .a3 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-4 .a4 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-4 .a5 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-4 .a6 ").before("<h3>do</h3><h3>re</h3>");
+});
+
+
 texto("mayor","5","YO TENGO UN AMIGO QUE ME AMA","𝙔𝙊 𝙏𝙀𝙉𝙂𝙊 𝙐𝙉 𝘼𝙈𝙄𝙂𝙊 𝙌𝙐𝙀 𝙈𝙀 𝘼𝙈𝘼","YO TENGO UN AMIGO QUE ME AMA","ME AMA , ME AMA","YO TENGO UN AMIGO QUE ME AMA"," SU NOMBRE ES JESUS","//EL ME AMA//","EL ME AMA ASI CON TIERNO AMOR","//EL ME AMA//","SU NOMBRE ES JESUS");
-texto("mayor","777","ALELUYA SOY UN SALVO","𝘼𝙇𝙀𝙇𝙐𝙔𝘼 𝙎𝙊𝙔 𝙐𝙉 𝙎𝘼𝙇𝙑𝙊","//ALELUYA SOY UN SALVO","PUES JESUCRISTO CON SU SANGRE ME LAVO","ALELUYA SOY UN SALVO","Y POR ESO ALEGRE ESTOY","ALELUYA SOY UN SALVO",".........","EL EVANGELIO ANUNCIARE","//ALELUYA ESTA VIDA ES DIFERENTE","CON JESÚS ETERNAMENTE VOY A MI CELESTE HOGAR//","")
+
+$(document).ready(function(){
+   $(" #mayor-5 .a1 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-5 .a2 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-5 .a3 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-5 .a4 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-5 .a5 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-5 .a6 ").before("<h3>do</h3><h3>re</h3>");
+});
+
+
+texto("mayor","777","ALELUYA SOY UN SALVO","𝘼𝙇𝙀𝙇𝙐𝙔𝘼 𝙎𝙊𝙔 𝙐𝙉 𝙎𝘼𝙇𝙑𝙊","//ALELUYA SOY UN SALVO","PUES JESUCRISTO CON SU SANGRE ME LAVO","ALELUYA SOY UN SALVO","Y POR ESO ALEGRE ESTOY","ALELUYA SOY UN SALVO",".........","EL EVANGELIO ANUNCIARE","//ALELUYA ESTA VIDA ES DIFERENTE","CON JESÚS ETERNAMENTE VOY A MI CELESTE HOGAR//","");
+
+$(document).ready(function(){
+   $(" #mayor-777 .a1 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-777 .a2 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-777 .a3 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-777 .a4 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-777 .a5 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-777 .a6 ").before("<h3>do</h3><h3>re</h3>");
+});
+
+
 texto("mayor","6","CRISTO ROMPE LAS CADENAS","CRISTO ROMPE LAS CADENAS","///CRISTO ROMPE LAS CADENAS///","Y ME DA SEGURIDAD" , "-------- O ---------","COMO ES POSIBLE YO VIVIR SIN TI JESUS","SI EL FUNDAMENTO DE MI VIDA ERES TU","TU ME SALVASTE Y ME LIBRASTE","DE LA MUERTE..","COMO ES POSIBLE YO VIVIR SIN TI JESUS","");
+
+$(document).ready(function(){
+   $(" #mayor-6 .a1 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-6 .a2 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-6 .a3 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-6 .a4 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-6 .a5 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-6 .a6 ").before("<h3>do</h3><h3>re</h3>");
+});
+
+
 texto("mayor","7","DONDE ESTA EL ESPIRITU DE DIOS","DONDE ESTA EL ESPIRITU DE DIOS","DONDE ESTA EL ESPIRITU DE DIOS ","HAY LIUBERTAD ","HAY LIBERTAD","DONDE ESTA EL ESPIRITU DE DIOS ","ALLI SIEMPRE HAY LIBERTAD","///LIBERTAD...///","DONDE ESTA EL ESPIRITU DE DIOS ","ALLI SIEMPRE HAY LIBERTAD.","");
+
+$(document).ready(function(){
+   $(" #mayor-7 .a1 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-7 .a2 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-7 .a3 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-7 .a4 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-7 .a5 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-7 .a6 ").before("<h3>do</h3><h3>re</h3>");
+});
+
+
 texto("mayor","8","PASA POR AQUI SEÑOR","PASA POR AQUI SEÑOR","PASA POR AQUI SEÑOR PASA POR AQUI","PASA POR AQUI SEÑOR PASA POR AQUI","------ O ------","OHH OHH SEÑOR PASA POR AQUI","OHH OHH SEÑOR PASA POR AQUI..","","","","","");
+
+$(document).ready(function(){
+   $(" #mayor-8 .a1 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-8 .a2 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-8 .a3 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-8 .a4 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-8 .a5 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-8 .a6 ").before("<h3>do</h3><h3>re</h3>");
+});
+
+
 texto("mayor","9","ARDIENDO EL FUEGO","ARDIENDO EL FUEGO","ARDIENDO EL FUEGO EN MI ALMA ESTA","ARDIENDO EL FUEGO EN MI ALMA ESTA","GLORIOSA LLAMA ME LIBRARA","OHH ALELUYA ARDIENDO EL FUEGO ESTA","------ O ------","OHHH SEÑOR QUIERO QUE ARDAS EN MI SER ","COMO LA ZARZA QUIERO ARDE CON TU PODER","EN NUEVAS LENGUA QUIERO HABLAR COMO SEÑAL","QUE ESTOY ARDIENDO CON EL FUEGO CELESTIAL ","QUIERO ALABARTE Y ADORARTE SOLO A TI","COMO SE DORA EN ESPIRITU Y EN VERDAD","//OHHH SEÑOR QUIERO QUE ARDAS EN MI SER","COMO LA ZARZA QUIERO ARDER CON TU PODER//","");
+
+$(document).ready(function(){
+   $(" #mayor-9 .a1 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-9 .a2 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-9 .a3 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-9 .a4 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-9 .a5 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-9 .a6 ").before("<h3>do</h3><h3>re</h3>");
+});
+
+
 texto("mayor","10","BENDITO SEA JEHOVA LA ROCA","BENDITO SEA JEHOVA LA ROCA","BENDITO SEA JEHOVA LA ROCA","POR TODA LA ETERNIDAD","MI ESCONDEDERO Y MI REDFUGIO ","ERES TU BENDITO JEHOVA","EN TU PALABRA YO ESPERARE ","Y MI CONFIANZA EN TI PONDER ","OHH GLORIA OHH ALELUYA ","//AMEN AMEN..//","","","","","","","");
-texto("mayor","11","QUE NO SE APAGUE EL FUEGO","QUE NO SE APAGUE EL FUEGO QUE HAY EN MI CORAZÓN","QUE NO SE APAGUE EL FUEGO QUE HAY EN MI CORAZÓN","QUE NO SE APAGUE EL FUEGO QUE SIGA","QUE SIGA ARDIENDO MAS Y MAS","DAME GOZO SEÑOR "," DAME PAZ Y AMOR"," QUE YO QUIERO MORAR"," MAS ALLÁ DEL SOL","")
+
+$(document).ready(function(){
+   $(" #mayor-10 .a1 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-10 .a2 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-10 .a3 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-10 .a4 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-10 .a5 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-10 .a6 ").before("<h3>do</h3><h3>re</h3>");
+});
+
+
+texto("mayor","11","QUE NO SE APAGUE EL FUEGO","QUE NO SE APAGUE EL FUEGO QUE HAY EN MI CORAZÓN","QUE NO SE APAGUE EL FUEGO QUE HAY EN MI CORAZÓN","QUE NO SE APAGUE EL FUEGO QUE SIGA","QUE SIGA ARDIENDO MAS Y MAS","DAME GOZO SEÑOR "," DAME PAZ Y AMOR"," QUE YO QUIERO MORAR"," MAS ALLÁ DEL SOL","");
+
+$(document).ready(function(){
+   $(" #mayor-11 .a1 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-11 .a2 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-11 .a3 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-11 .a4 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-11 .a5 ").before("<h3>do</h3><h3>re</h3>");
+   $(" #mayor-11 .a6 ").before("<h3>do</h3><h3>re</h3>");
+});
+
+
 texto("mayor","12","CRISTO TIENE PODER","CRISTO TIENE PODER","//CRISTO TIENE PODER//","CRISTO TIENE PODER ALELUYA TIENE PODER","CRISTO TIENE PODER CRISTO TIENE PODER","JESUCRISTO ES PODEROSO","JESUCRISTO  TIENE PODER","JESUCRISTO ES PODEROSO","JESUCRISTO TIENE PODER","");
+
 texto("mayor","13","YO LE ALABO DE CORAZON ","YO LE ALABO DE CORAZON","//YO LE ALABO DE CORAZON "," YO LE ALABO CON MI VOZ//","Y SI ME FALTA LA VOZ ","YO LE ALABO CON MIS MANOS","Y SI ME FALATN LAS MANOS","YO LE ALABO CON MIS PIES ","Y SI ME FALTA LOS PIES ","YO LE ALABO CON EL ALMA","Y SI ME FALTARA EL ALMA..","ES.. QUE.. YA ESTOY CON EL...","//ALABALE ALABALE","ALABALE DE CORAZON//");
+
 texto("mayor","14","CUANDO CRISTO VINO A MI CORAZON","CUANDO CRISTO VINO A MI CORAZON","CUANDO CRISTO VINO A MI CORAZON","MI VIDA ENTERA CAMBIO..","SU PAZ Y SU AMOR ALEJARON DE MI","LAS DUDAS EL MIEDO Y EL TEMOR","------- O -------","//MI VIDA COMENZO ","CUANDO EL SEÑOR LLEGO","Y HOY PUEDO CANTAR DE SU AMOR//","","","","","","");
+
 texto("mayor","15","BENDICION VINE A BUSCAR","BENDICION VINE A BUSCAR","//BENDICION VINE A BUSCAR","Y SIN ELLA NO ME IRE//","Y DAME MAS SEÑOR","DE TU GRAN PODER","Y DAME MAS SEÑOR","DE TU GRAN PODER");
+
 texto("mayor","16","VIDA ABUNDANTE QUIERO TENER","VIDA ABUNDANTE QUIERO TENER","VIDA ABUNDANTE QUIERO TENER","QUIERO TENER QUIERO TENER","VIDA ABUNDANTE QUIERO TENER","SOLO JESUCRISTO TE LA DA","ANDAR CON CRISTO EN COMUNION","CON LOS HERMANOS EN AMOR","QUE GOZO TENGO EN MI CORAZON ","SOLO JESUCRISTO ME LO DA");
-texto("mayor","17","HAY VIDA EN JESUS","HAY VIDA EN JESUS","HAY VIDA HAY VIDA EN JESUS","HAY VIDA HAY VIDA EN JESUS","YO VOY A MORAR ","A LA PATRIA CELESTIAL","PORQUE HAY VIDA ","HAY VIDA EN JESUS","//HAY GOZO HAY GOZO EN JESUS//","YO VOY A MORAR A LA PATRIA CELESTIAL","PORQUE HAY GOZO HAY GOZO EN JESUS","","","","","","") 
+
+texto("mayor","17","HAY VIDA EN JESUS","HAY VIDA EN JESUS","HAY VIDA HAY VIDA EN JESUS","HAY VIDA HAY VIDA EN JESUS","YO VOY A MORAR ","A LA PATRIA CELESTIAL","PORQUE HAY VIDA ","HAY VIDA EN JESUS","//HAY GOZO HAY GOZO EN JESUS//","YO VOY A MORAR A LA PATRIA CELESTIAL","PORQUE HAY GOZO HAY GOZO EN JESUS","","","","","","");
+
 
 /* link para ubicar las canciones*/
 
 
 texto("menor","30","COMO LADRON DE LA NOCHE","COMO LADRON EN LA NOCHE","//COMO LADRON EN LA NOCHE//","ASI SERA LA VENIDA DEL HIJO DEL HOMBRE","//ESO LO DICE LA BIBLIA ","LA BIBLIA NO HA DE MENTIR","JESUCRISTO VENDRA ","COMO LADRON EN LA NOCHE//");
-texto("menor","31","COMO EL SIERVO BRAMA"); 
-texto("menor","32","YO HE CREIDO EN UN PODER QUE NO SE TOCA"); 
-texto("menor","33");
-texto("menor","34");
-texto("menor","35");
-texto("menor","36");
-texto("menor","37");
-texto("menor","38");
-texto("menor","39");
-texto("menor","40");
+texto("menor","31","COMO EL SIERVO BRAMA","COMO EL SIERVO BRAMA","COMO EL SIERVO BRAMA","POR LAS CORRIENTES DE LAS AGUAS","ASÍ CLAMA POR TI","OH DIOS EL ALMA MIA","//MI ALMA TIENE SED DE DIOS","TIENE SED DE DIOS","TIENE SED DE DIOS// "); 
+texto("menor","32","YO HE CREIDO EN UN PODER QUE NO SE TOCA","YO HE CREIDO EN UN PODER QUE  NO SE TOCA","YO HE CREIDO EN UN PODER QUE  NO SE TOCA","YO EH CREIDO EN UN PODER QUE NO SE VE","//YO EH CREIDO EN UN PODER"," QUE NO SE TOCA NI SE VE","PERO SE SIENTE EN EL CORAZÓN//"); 
+texto("menor","33","AH GENEZARET","AH GENEZARET","//AH GENEZARET//","YA LLEGÓ JESÚS","LA PRESENCIA DE ÉL","INVADIO EL LUGAR DE FELICIDAD","LOS ENFERMOS QUE","PRECISABAN DE ÉL","SE POSTRARÓN AL VERLO LLEGAR","//Y EN AQUEL LUGAR","LOGRARON TOCAR","EL BORDE DE SU MANTO//","//DEJAME TOCAR TU MANTO JESÚS","DEJAME TOCAR TU  MANTO JESÚS","Y AL INSTANTE SANARÉ//");
+texto("menor","34","RENUEVAME","RENUEVAME","//RENUEVAME//","Y LLENAME DE TU PODER","CON FUEGO SANTO Y AMOR","SEÑOR DIOS","POR QUE MI VIDA VACIA ESTA","DE BENDICIONES TIENES QUE LLENAR","TODO MI CUERPO TU HARAS TEMBLAR","CON FUEGO SANTO","FUEGO CELESTIAL","ROMPE MI VIDA Y MI CORAZÓN","DAME UNO NUEVO LLENO DE AMOR","QUE SEA TUYO OH MI SALVADOR","JESUCRISTO DIOS");
+texto("menor","35","MIRA QUE TE MANDO QUE TE ESFUERCES","MIRA QUE TE MANDO QUE TE ESFUERCES","//MIRA QUE TE MANDO QUE TE ESFUERCES ","Y QUE SEAS VALIENTE Y QUE SEAS VALIENTE//","------ O ------","//NO TEMAS NI DESMAYES ","PORQUE JEHOVA TU DIOS","ESTARA CONTIGO ","DONDE QUIERAS QUE TU VAYAS//","","","","","","","","");
+texto("menor","36","QUERIDO HERMANO","QUERIDO HERMANO","//QUERIDO HERMANO NUNCA DESMAYES","QUE JESUCRISTO ","A TU LADO ESTA//","------ O ------","YO VENCERE TU VENCERAS","Y TODOS VENCEREMOS ","EN EL NOMBRE DE JESUS","","","","","","","");
+texto("menor","37","PARA TI OH JEHOVA ","PARA TI OH JEHOVA ","//PARA TI OH JEHOVA ","PARA TI QUIERO CANTAR","SIENTO GOZO EN MI ALMA","CUANDO CANTO PARA TI//","----- O -----","POR TU GRANDE AMOR ","QUE ES LO MAXIMO","Y MI ALMA SE GOZA ","CUANDO CANTO PARA TI","","","","","");
+texto("menor","38","DIOS TIENE UN BARCO ","DIOS TIENE UN BARCO ","//DIOS TIENE UN BARCO ","QUE NAVEGA EN ALTA MAR","Y JESUCRISTO ES EL CAPITAN//","------ O ------","LOS MARINEROS ","QUE NAVENGAN A SU LADO","SON AQUELLOS QUE HAN LAVADO","CON SU SANGRE EL CORAZON","","","","","","");
+texto("menor","39","YO ESPERO EL SON","YO ESPERO EL SON","//YO ESPERO EL SON","YO ESPERO EL SON","YO ESPERO EL SON DE LA TROMPETA FINAL//","------ O ------","YO SE QUE CRISTO MUY PRONTO VENDRA","Y A SU PUEBLO EL SE LLEVARA","YO SE QUE CRISTO MUY PRONTO VENDRA ","CUANDO SUENE LA TROMPETA FINAL","","","","","","");
+texto("menor","40","Y COMO NO DECIRTE","Y COMO NO DECIRTE","//Y COMO NO DECIRTE","QUE YO TE AMO","Y COMO NO DECIRTE ","QUE YO TE QUIERO","Y COMO NO DECIRTE ","QUE TU ERES MI VIDA ","SI TU ERES MI TODO JESUS NAZARENO//","------ O ------","//TU ERES TODO PARA MI","TU ERES TODO PARA MI","TU ERES TODO PARA MI","JESUS AMADO....//","","","","");
+
+/* ALABANZAS MAYORES */
+
+texto("al-mayor","90","DIOS ESTA AQUI","DIOS ESTA AQUI","DIOS ESTA AQUI","TAN SIERTO COMO EL AIRE QUE RESPIRO","TAN SIERTO COMO LA MAÑANA","SE LEVANTA","TAN SIERTO QUE LE CANTO","Y EL ME PUEDDE OIR","------ O ------","LE HABLARE EN SILENCIO AL OIDO","LE CONTARE COSAS QUE HAY EN MI","Y QUE SOLO A EL","LE INTERESARA","TU ERES MAS QUE UN MITO","PARA MI...","TAN CERCA DE MI","TAN CERCA DE TI","QUE HASTA LO PUEDO TOCAR..","DIOS ESTA AQUI");
+texto("al-mayor","91");
+texto("al-mayor","92");
+texto("al-mayor","93");
+texto("al-mayor","94");
+texto("al-mayor","95");
+texto("al-mayor","96");
+texto("al-mayor","97");
+texto("al-mayor","98");
+texto("al-mayor","99");
+texto("al-mayor","100");
+
+/* ALABANZAS MENORES*/
+
+texto("al-menor","130","SEGUIRTE SOLO A TI","SEGUIRTE SOLO A TI","SEGUIRTE SOLO A TI");
+texto("al-menor","131","CREO EN TI","CREO EN TI","QUIERO LEVANTAR A TI MIS MANOS","MARAVILLOSO JESUS","MILAGROSO SEÑOR","CREO EN TI JESUS","EN LO NQUE HARAS EN MI","YO CREO EN TI JESUS","Y EN LO QUE HARAS EN MI","EN MI EN MI...","//RECIBE TODA LA GLORIA","RECIBE TODA LA HONRA","PRECIOSO HIJO DE DIOS//");
+texto("al-menor","132");
+texto("al-menor","133");
+texto("al-menor","134");
+texto("al-menor","135");
+texto("al-menor","136");
+texto("al-menor","137");
+texto("al-menor","138");
+texto("al-menor","139");
+texto("al-menor","140");
+texto("al-menor","141");
+texto("al-menor","142");
+texto("al-menor","143");
+texto("al-menor","144");
 
 
-texto("al-mayor","90");
 
-texto("al-menor","130");
+
+
